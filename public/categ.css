@@ -1,0 +1,155 @@
+#animation{
+    display: block;
+}
+
+.modal-dialog{
+    max-width: 60% !important;
+}
+
+.imgModal{
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding: 10px 10px 10px 10px !important; */
+    margin: 20px 0;
+    width: 355% !important;
+    border-right: #343a40 1px solid;
+}
+.cardModal{
+    flex-direction: row !important;
+    /* justify-content: center; */
+    align-items: center !important;
+    border: #343a40 1px solid !important;
+    border-radius: 0 !important;
+}
+
+.modal-content{
+    border-radius: 0 !important;
+}
+.modal-header{
+    border: #343a40 1px solid !important;
+}
+
+.modal-title{
+    text-transform: uppercase;
+
+}
+
+.modal-body h5{
+    height: auto;
+    /* background-color: blueviolet; */
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+
+#descriptionProductModal{
+    font-size: 0.8rem;
+    /* text-transform: uppercase; */
+    font-weight: 300 !important;
+    line-height: 1.8 !important;
+}
+.padCard{
+    padding: 0.5rem !important;
+    border-top: #343a40 1px solid;
+}
+.productList{
+    display: none;
+    padding-top: 100px;
+    min-height: 100vh !important;
+    height: auto !important;
+}
+
+.estoy{
+    border-bottom: black 1px solid;
+    
+}
+
+.on{
+    display:block
+}
+
+.off{
+    display: none;
+}
+.noPosition{
+    position: initial !important;
+}
+/* .nav{
+    padding: 10px 20px 0px 20px !important;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 23%);
+} */
+
+/* ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    width: 130px;
+    text-align: center;
+}
+
+.nav a{
+    color: black !important;
+}
+
+.nav a:hover{
+    font-weight: 900;
+}
+
+a:link, a:visited a:hover{
+    text-decoration: none !important;
+    
+} */
+
+.imgCard{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px !important;
+}
+
+.imgCard img{
+    height: 120px;
+    width: auto;
+}
+
+.card-title{
+    font-size: 0.8rem;
+    height: 55px;
+    /* background-color: aquamarine; */
+}
+
+.btn{
+    font-size: smaller !important;
+    border-radius: 0 !important;
+}
+
+.btn-primary{
+    background-color: #81aec7 !important;
+    border-color:#81aec7 !important;
+}
+.car{
+    /* border: black 1px solid; */
+    margin: 10px;
+    padding: 1.25rem 10px 3px 10px !important;
+    width: 23%;
+    background-color: #fff;
+    /* border-radius: 10px;
+    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 14%); */
+}
+
+.car:hover{
+    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 23%);
+    transition: all .3s ease-in-out;
+    transform: translateY(-5px);
+}
+
+
+body{
+    background-color:#ebebeb !important;
+}

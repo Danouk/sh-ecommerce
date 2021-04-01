@@ -1,0 +1,281 @@
+/* #animation{
+    display: block;
+}
+#headerNav{
+    display: none !important;
+}
+
+#sectionHome{
+    display: none;
+}
+#sectionCategories{
+    display: none;
+}
+
+#footer{
+    display: none !important;
+} */
+
+.on{
+    display: block !important;
+}
+
+.off{
+    display: none !important;
+}
+
+
+
+body{
+    color: #072540 !important;
+    background-color: #f1f7fa !important;
+}
+.divFlexTxtHome{
+    display:flex;
+    /* display: flex; */
+    align-items: center;
+    padding-left: 20px;
+    height: 90vh;
+
+}
+
+.btn{
+    font-size: smaller !important;
+    border-radius: 0 !important;
+}
+
+.alert-dismissible {
+    padding-right: 0rem !important;}
+#sectionHome{
+    background-image: url(img/Group\ 5\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-color: cornflowerblue; */
+    background-color: #072540;
+}
+
+.homeTxt{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    width: 40%;
+}
+
+.homeTxt h1{
+    padding-bottom: 20px;
+}
+
+.homeTxt p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: #fff 1px solid;
+}
+
+.homeTxt strong{
+    color: #fb8ae2 !important;
+    font-weight: 900;
+}
+/* Compartido con otros modulos --- */
+.navBar{
+    padding: 10px 20px 0px 20px !important;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #FFF;
+    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 23%);
+    position:fixed; */
+    width: 100%;
+}
+
+.backNav{
+    background-color: #072540 !important;
+}
+
+.btn-darkH{
+    background-color: #072540;
+    border-color: #072540;
+    /* padding: 0.375rem .75rem; */
+    padding: 6px 12px;
+    margin: 0px 0px 0px 4px;
+    color: #fff;
+    font-size: smaller !important;
+    border-radius: 0 !important;
+}
+
+.checkName{
+    background-color: #fb8ae2 !important;
+    border-color: #fb8ae2 !important;
+    padding: 6px 12px;
+    margin: 0px 0px 0px 4px;
+    color: #fff;
+    font-size: smaller !important;
+    border-radius: 0 !important;
+}
+
+
+
+.navBar a{
+    /* color: #3B3B3B !important;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.8rem; */
+    color: #81aec7!important;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1rem;
+
+}
+
+.navBar a:hover{
+    /* border-bottom: black 1px solid; */
+    color: #fb8ae2 !important;
+}
+
+a:link, a:visited a:hover{
+    text-decoration: none !important;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0px !important;
+    /* background-color: aliceblue; */
+}
+
+li{
+    /* list-style: none;
+    width: 130px;
+    text-align: center; */
+    list-style: none;
+    width: auto;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.navBar .logo{
+    width: 45px;
+    margin-bottom: 1rem;
+}
+
+.navBar .shopping{
+    margin-bottom: 1rem;
+
+}
+
+.navBar span{
+    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 23%);
+    /* border: black 1px solid; */
+}
+
+.navBar span:hover{
+        color: #fb8ae2 ;
+}
+
+/* hasta acá --- */
+
+body{
+    color: #3B3B3B;
+}
+
+.darkMode{
+    background-color: #3B3B3B;
+    color: #F4F6F7;
+}
+
+
+footer{
+    height: 50px;
+    /* background-color: #515151; */
+    background-color: #072540;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+    color: #81aec7;
+    font-weight: 200;
+    font-size: smaller;
+}
+
+footer strong{
+    color: #fb8ae2;
+    font-weight: 900;
+}
+
+.nowrap{
+    flex-wrap: nowrap !important;
+}
+
+
+.container{
+    max-width: 90%;
+}
+
+.joyeria{
+    background-image: url(https://www.seekpng.com/png/full/233-2336150_contamos-con-gran-variedad-de-joyas-en-oro.png);
+    height: 200px;  
+    width: 60%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: beige;
+
+}
+
+.joyeria :hover{
+    transition: all .3s ease-in-out;
+    /* transition: linear; */
+    transform: translateY(-5px);
+}
+
+
+.electronica{
+    background-image: url(http://www.pngpix.com/wp-content/uploads/2016/04/Monitor-PNG-Image-500x472.png);
+    height: 200px;  
+    width: 40%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: darkseagreen;
+}
+
+.joyHover{
+    /* width: 25%; */
+    /* background-color: aquamarine; */
+    padding: 15px;
+    /* border: black 1px solid; */
+    margin: 0 2.5px 0 2.5px;
+    /* transition: all .3s ease-out; */
+}
+
+.joyHover a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #072540 !important;
+}
+
+.joyHover a:hover{
+    color: #fb8ae2 !important;
+}
+
+.joyHover h1{
+    font-size: 1rem !important;
+    font-weight: 900 !important;
+    margin-top: 10px !important;
+    /* color: #3B3B3B; */
+    color: #072540;
+    text-transform: uppercase;
+    line-height: 0.5 !important;
+    
+    /* line-height: ; */
+}
+
+.joyHover div:hover{
+    transition: all .3s ease-in-out;
+    /* transition: linear; */
+    transform: translateY(-5px);
+
+}

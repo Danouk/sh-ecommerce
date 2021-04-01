@@ -1,0 +1,156 @@
+<!-- Soy Debra - Danouk 😅 -->
+<!-- probando probando 1, 2, 3 !
+    👋 ¡ Hola ! como estas?. aclaro EL SCHEMA ESTA ABAJO DEL TODO, EN UN SCRIPT, 
+    encontre una pagina que me lo genero, espero que salga bien jajaj -->
+
+<!-- * no se como se ve la pagina en una resolución más grande que 1280*800
+    * y no me funciona bien el card de facebook, esta pasando algo raro. -->
+
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Ecommerce</title>     
+     
+         <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="animation.css">
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+     
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+                 integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+                 crossorigin="anonymous">
+     
+     </head>
+     <body>
+       <!--Meta Google-->
+       <meta name="description" content="Reto semanal #5 del super SammerHack - Crear un Ecommerce utilizando APIs y localStorage"/>
+       <meta name="keywords" content="escuelaDevRock, retosemanal, devRock, summerhack, ecommerce"/>
+       <meta name="author" content="Debra Anouk Grimbeek"/>
+       <meta name="copyright" content="danouk">
+       <meta name="robots" content="index follow">
+       
+       <!--Open Graph Facebook-->
+
+      <meta property="og:title" content="Reto semanal #5 del super SammerHack" />
+      <meta property="og:description" content="Reto semanal #5 del super SammerHack - Crear un Ecommerce utilizando APIs y localStorage"/>
+      <meta property="og:image" content="https://sh-notenemosnombre.web.app/img/jewelery.jpg"/>
+      <meta property="og:type" content="Application"/>
+      <meta property="fb:app_id" content="3057707970374"/>
+      <meta property="og:url" content="https://sh-notenemosnombre.web.app"/>
+     
+       <!--Twitter-->
+       <meta twitter="og:title" content="ecommerce summerHack" />
+       <meta twitter="og:description" content="Reto semanal #5 del super SammerHack - Crear un Ecommerce utilizando APIs y localStorage" />
+       <meta twitter="og:type" content="Application" />
+       <meta twitter="og:image" content="https://sh-notenemosnombre.web.app/img/jewelery.jpg">
+     
+       <header class="navBar" id="headerNav">
+         <a href="#" class="logo">Logo
+         </a>
+           <ul id="categoriesNav"></ul>
+         <a href="cart.html" class="shopping">
+           <i class="fas fa-shopping-cart"></i>
+           <span class="badge" id="cantCarrito"></span>
+         </a>
+         <!-- <a href="forms.html">formulario</a> -->
+       </header>
+     
+       <section id="animation">
+         <div class='containerAnimation'>
+           <div class='loader-containerAnimation'>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+           </div>
+       </section>
+     
+       <section id="sectionHome" >
+         <div class="divFlexTxtHome">
+         <div class="homeTxt">
+           
+           <h1>Probando hacer un ecommerce 
+               para el <strong>reto del SummerHack</strong></h1>
+           <p>
+             Acá no se me ocurre que escribir, pero iria 
+             alguna llamada de acción como: <strong>comprá, mira nuestros productos, 
+             productos destacados</strong> que se yo. No! eso creo que iria en el titulo &#129300;</p>
+             <div class="alert alert-light alert-dismissible fade show" role="alert">
+               <strong>👋 Hola!</strong> dejanos tu nombre <input type="text" id="tuNombreInput"> <button id="tuNombreBtn" type="button" class="btn-darkH">Ok</button>
+               <!-- <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button> -->
+             </div>
+         </div>
+     
+       </section>
+     
+       <section style=" margin: 0 25px;" id="sectionCategories">
+         <div style="text-align: center;
+               margin: 10px;">
+           <h1>Categorias</h1>
+           <p>Y acá tambien va algun txt</p>
+         </div>
+         <hr>
+           <div class="row" id="cardCategories"></div>
+       </section>
+     
+     
+       <footer id="footer">
+         <span>🇦🇷   Patagonia Argentina</span>
+           <div>
+             <span>Creado por: <strong>Debra Anouk Grimbeek</strong></span>
+             <i class="fab fa-github"></i><i class="fab fa-instagram"></i>
+           </div>
+       </footer>
+     
+     
+     
+     
+       <!-- Js | Bootstrap 4.6 -->
+       <script type="text/javascript" src="main.js"></script>
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+               integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+               crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
+               integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" 
+               crossorigin="anonymous"></script>
+     
+       <script type="application/ld+json">
+         {
+           "@context": "https://schema.org",
+           "@type": "ShoppingCenter",
+           "name": "notenemosnombre",
+           "image": "https://sh-notenemosnombre.web.app/img/jewelery.jpg",
+           "@id": "",
+           "url": "https://sh-notenemosnombre.web.app/",
+           "telephone": "12345677",
+           "priceRange": "1000",
+           "address": {
+             "@type": "PostalAddress",
+             "streetAddress": "siempre viva 123",
+             "addressLocality": "Rada Tilly",
+             "postalCode": "9001",
+             "addressCountry": "AR"
+           },
+           "openingHoursSpecification": {
+             "@type": "OpeningHoursSpecification",
+             "dayOfWeek": [
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Friday",
+               "Saturday",
+               "Sunday"
+             ],
+             "opens": "00:00",
+             "closes": "23:59"
+           } 
+         }
+         </script>
+     </body>
+     </html>
